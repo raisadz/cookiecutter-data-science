@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install ruff nbqa interrogate pytest
+          pip install -r requirements-dev.txt
       - name: Autoformat with ruff
         run: |
           ruff format src/

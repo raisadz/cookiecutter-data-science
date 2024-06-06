@@ -1,8 +1,0 @@
-channels:
-  - conda-forge
-dependencies:
-  - python=3.10
-  - pip:
-      # please pin your environment versions
-      - ruff
-name: model-env-dev
